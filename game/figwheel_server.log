@@ -1,0 +1,1774 @@
+Compiling build :game to "resources/public/js/flappy_bird_demo.js" from ["src"]...
+[32mSuccessfully compiled build :game to "resources/public/js/flappy_bird_demo.js" in 7.343 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.512 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.457 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.486 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.478 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[31mFailed to compile build :game from ["src"] in 0.295 seconds.[0m
+[36m----  Could not Read  src/game/core.cljs   line:195 ----[0m
+
+  [1m/Users/eric/Documents/project/game/src/game/core.cljs [line 195, col 24] Unmatched delimiter ).[0m
+
+  [36m193[0m  [36m(if-not timer-running[0m
+  [36m194[0m  [36m  [:a.hard-button {:onClick #(start-game)}[0m
+  [33m195[0m  [1m  [:span])[0m
+  [0m   [0m  [33m  /Users/eric/Documents/project/game/src/game/core.cljs [line 195, col 24] Unmatched delimiter ).[0m
+  [36m196[0m  [36m[:div (map pillar pillar-list)][0m
+  [36m197[0m  [36m[:div.flappy {:style {:top (px flappy-y)}}][0m
+  [36m198[0m  [36m[:div.scrolling-border {:style { :background-position-x (px border-pos)}}]]))[0m
+
+[36m----  Reader Error : Please see src/game/core.cljs  ----[0m
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[31mFailed to compile build :game from ["src"] in 0.309 seconds.[0m
+[36m----  Could not Read  src/game/core.cljs   line:195 ----[0m
+
+  [1m/Users/eric/Documents/project/game/src/game/core.cljs [line 195, col 24] Unmatched delimiter ).[0m
+
+  [36m193[0m  [36m(if-not timer-running[0m
+  [36m194[0m  [36m  [:a.hard-button {:onClick #(start-game)}[0m
+  [33m195[0m  [1m  [:span])[0m
+  [0m   [0m  [33m  /Users/eric/Documents/project/game/src/game/core.cljs [line 195, col 24] Unmatched delimiter ).[0m
+  [36m196[0m  [36m[:div (map pillar pillar-list)][0m
+  [36m197[0m  [36m[:div.flappy {:style {:top (px flappy-y)}}][0m
+  [36m198[0m  [36m[:div.scrolling-border {:style { :background-position-x (px border-pos)}}]]))[0m
+
+[36m----  Reader Error : Please see src/game/core.cljs  ----[0m
+Notifying browser that CSS file changed: resources/public/css/style.css
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.479 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[36m----  Compiler Warning on   src/game/core.cljs   line:30  column:1  ----[0m
+
+  [1mhard-init at line 29 is being replaced[0m
+
+  [36m26[0m  [36m(def pillar-gap 158) ;; 158[0m
+  [36m27[0m  [36m(def pillar-width 86)[0m
+  [36m28[0m  [36m(def easy-init { :gravity 0.02})[0m
+  [36m29[0m  [36m(def hard-init {:gravity 0.1})[0m
+  [33m30[0m  [1m(def hard-init {:gravity 0.05})[0m
+  [0m  [0m  [33m^--- hard-init at line 29 is being replaced[0m
+  [36m31[0m  [36m[0m
+  [36m32[0m  [36m[0m
+  [36m33[0m  [36m(def starting-state { :timer-running false[0m
+  [36m34[0m  [36m                      :jump-count 0[0m
+  [36m35[0m  [36m                      :initial-vel 0[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[31mFailed to compile build :game from ["src"] in 0.341 seconds.[0m
+[36m----  Could not Read  src/game/core.cljs   line:190 ----[0m
+
+  [1m/Users/eric/Documents/project/game/src/game/core.cljs [line 190, col 69] The map literal starting with :onClick on line 190 column 32 contains 3 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m188[0m  [36m[:h1.score score][0m
+  [36m189[0m  [36m(if-not timer-running[0m
+  [33m190[0m  [1m  [:a.easy-button {:onClick #(start-game) #(easy-init)}[0m
+  [0m   [0m  [33m  /Users/eric/Documents/project/game/src/game/core.cljs [line 190, col 69] The map literal starting with :onClick on line 190 column 32 contains 3 form(s). Map literals must contain an even number of forms.[0m
+  [36m191[0m  [36m   (if (< 1 jump-count) "EASY" "EASY")][0m
+  [36m192[0m  [36m  [:span])[0m
+  [36m193[0m  [36m(if-not timer-running[0m
+
+[36m----  Reader Error : Please see src/game/core.cljs  ----[0m
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[31mFailed to compile build :game from ["src"] in 0.302 seconds.[0m
+[36m----  Could not Read  src/game/core.cljs   line:190 ----[0m
+
+  [1m/Users/eric/Documents/project/game/src/game/core.cljs [line 190, col 69] The map literal starting with :onClick on line 190 column 32 contains 3 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m188[0m  [36m[:h1.score score][0m
+  [36m189[0m  [36m(if-not timer-running[0m
+  [33m190[0m  [1m  [:a.easy-button {:onClick #(start-game),#(easy-init)}[0m
+  [0m   [0m  [33m  /Users/eric/Documents/project/game/src/game/core.cljs [line 190, col 69] The map literal starting with :onClick on line 190 column 32 contains 3 form(s). Map literals must contain an even number of forms.[0m
+  [36m191[0m  [36m   (if (< 1 jump-count) "EASY" "EASY")][0m
+  [36m192[0m  [36m  [:span])[0m
+  [36m193[0m  [36m(if-not timer-running[0m
+
+[36m----  Reader Error : Please see src/game/core.cljs  ----[0m
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[36m----  Compiler Warning on   src/game/core.cljs   line:190  column:43  ----[0m
+
+  [1mWrong number of args (0) passed to game.core/start-game[0m
+
+  [36m186[0m  [36m                            (swap! flap-state jump)[0m
+  [36m187[0m  [36m                            (.preventDefault e))}[0m
+  [36m188[0m  [36m[:h1.score score][0m
+  [36m189[0m  [36m(if-not timer-running[0m
+  [33m190[0m  [1m  [:a.easy-button {:onClick #(start-game)}{:onClick #(easy-init)}[0m
+  [0m   [0m  [33m                             ^--- Wrong number of args (0) passed to game.core/start-game[0m
+  [36m191[0m  [36m   (if (< 1 jump-count) "EASY" "EASY")][0m
+  [36m192[0m  [36m  [:span])[0m
+  [36m193[0m  [36m(if-not timer-running[0m
+  [36m194[0m  [36m  [:a.normal-button {:onClick #(start-game)}{:onClick #(normal-init)}[0m
+  [36m195[0m  [36m   (if (< 1 jump-count) "NORMAL" "NORMAL")][0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:194  column:45  ----[0m
+
+  [1mWrong number of args (0) passed to game.core/start-game[0m
+
+  [36m190[0m  [36m  [:a.easy-button {:onClick #(start-game)}{:onClick #(easy-init)}[0m
+  [36m191[0m  [36m   (if (< 1 jump-count) "EASY" "EASY")][0m
+  [36m192[0m  [36m  [:span])[0m
+  [36m193[0m  [36m(if-not timer-running[0m
+  [33m194[0m  [1m  [:a.normal-button {:onClick #(start-game)}{:onClick #(normal-init)}[0m
+  [0m   [0m  [33m                               ^--- Wrong number of args (0) passed to game.core/start-game[0m
+  [36m195[0m  [36m   (if (< 1 jump-count) "NORMAL" "NORMAL")][0m
+  [36m196[0m  [36m  [:span])[0m
+  [36m197[0m  [36m(if-not timer-running[0m
+  [36m198[0m  [36m  [:a.hard-button {:onClick #(start-game)}{:onClick #(hard-init)}[0m
+  [36m199[0m  [36m   (if (< 1 jump-count) "HARD" "HARD")][0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:198  column:43  ----[0m
+
+  [1mWrong number of args (0) passed to game.core/start-game[0m
+
+  [36m194[0m  [36m  [:a.normal-button {:onClick #(start-game)}{:onClick #(normal-init)}[0m
+  [36m195[0m  [36m   (if (< 1 jump-count) "NORMAL" "NORMAL")][0m
+  [36m196[0m  [36m  [:span])[0m
+  [36m197[0m  [36m(if-not timer-running[0m
+  [33m198[0m  [1m  [:a.hard-button {:onClick #(start-game)}{:onClick #(hard-init)}[0m
+  [0m   [0m  [33m                             ^--- Wrong number of args (0) passed to game.core/start-game[0m
+  [36m199[0m  [36m   (if (< 1 jump-count) "HARD" "HARD")][0m
+  [36m200[0m  [36m  [:span])[0m
+  [36m201[0m  [36m[:div (map pillar pillar-list)][0m
+  [36m202[0m  [36m[:div.flappy {:style {:top (px flappy-y)}}][0m
+  [36m203[0m  [36m[:div.scrolling-border {:style { :background-position-x (px border-pos)}}]]))[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.598 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[31mFailed to compile build :game from ["src"] in 0.305 seconds.[0m
+[36m----  Could not Analyze  src/game/core.cljs   line:175  column:1  ----[0m
+
+  [1mParameter declaration ".requestAnimationFrame" should be a vector[0m
+
+  [36m173[0m  [36m       (.requestAnimationFrame js/window time-loop)))))[0m
+  [36m174[0m  [36m[0m
+  [33m175[0m  [1m(defn start-game[0m
+  [0m   [0m  [33m^--- Parameter declaration ".requestAnimationFrame" should be a vector[0m
+  [36m176[0m  [36m  (.requestAnimationFrame[0m
+  [36m177[0m  [36m   js/window[0m
+  [36m178[0m  [36m   (fn [time][0m
+
+[36m----  Analysis Error : Please see src/game/core.cljs  ----[0m
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.492 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.472 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[36m----  Compiler Warning on   src/game/core.cljs   line:190  column:43  ----[0m
+
+  [1mWrong number of args (1) passed to game.core/start-game[0m
+
+  [36m186[0m  [36m                            (swap! flap-state jump)[0m
+  [36m187[0m  [36m                            (.preventDefault e))}[0m
+  [36m188[0m  [36m[:h1.score score][0m
+  [36m189[0m  [36m(if-not timer-running[0m
+  [33m190[0m  [1m  [:a.easy-button {:onClick #(start-game easy-init)}[0m
+  [0m   [0m  [33m                             ^--- Wrong number of args (1) passed to game.core/start-game[0m
+  [36m191[0m  [36m   (if (< 1 jump-count) "EASY" "EASY")][0m
+  [36m192[0m  [36m  [:span])[0m
+  [36m193[0m  [36m(if-not timer-running[0m
+  [36m194[0m  [36m  [:a.normal-button {:onClick #(start-game)}[0m
+  [36m195[0m  [36m   (if (< 1 jump-count) "NORMAL" "NORMAL")][0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.527 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.478 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.485 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.495 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.472 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[36m----  Compiler Warning on   src/game/core.cljs   line:176  column:3  ----[0m
+
+  [1mgravity at line 18 is being replaced[0m
+
+  [36m172[0m  [36m       (<! (timeout 30))[0m
+  [36m173[0m  [36m       (.requestAnimationFrame js/window time-loop)))))[0m
+  [36m174[0m  [36m[0m
+  [36m175[0m  [36m(defn start-game [level][0m
+  [33m176[0m  [1m  (def gravity 1)[0m
+  [0m   [0m  [33m  ^--- gravity at line 18 is being replaced[0m
+  [36m177[0m  [36m;;  (if (= level 1)[0m
+  [36m178[0m  [36m;;    (easy-init)[0m
+  [36m179[0m  [36m;;    (if (= level 3)[0m
+  [36m180[0m  [36m;;      (hard-init)[0m
+  [36m181[0m  [36m;;      (normal-init)))[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.513 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.476 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.467 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.476 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.466 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[36m----  Compiler Warning on   src/game/core.cljs   line:177  column:58  ----[0m
+
+  [1mCan't take value of macro cljs.core/time[0m
+
+  [36m173[0m  [36m    (when (:timer-running new-state)[0m
+  [36m174[0m  [36m      (go[0m
+  [36m175[0m  [36m        (<! (timeout 30))[0m
+  [36m176[0m  [36m        (.requestAnimationFrame js/window time-loop)))))[0m
+  [33m177[0m  [1m(let [new-state (swap! flap-state (partial time-update time))][0m
+  [0m   [0m  [33m                                                       ^--- Can't take value of macro cljs.core/time[0m
+  [36m178[0m  [36m  (when (:timer-running new-state)[0m
+  [36m179[0m  [36m    (go[0m
+  [36m180[0m  [36m      (<! (timeout 30))[0m
+  [36m181[0m  [36m      (.requestAnimationFrame js/window time-loop)))))[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[31mFailed to compile build :game from ["src"] in 0.335 seconds.[0m
+[36m----  Could not Read  src/game/core.cljs   line:181 ----[0m
+
+  [1m/Users/eric/Documents/project/game/src/game/core.cljs [line 181, col 57] Unmatched delimiter ).[0m
+
+  [36m179[0m  [36m      (go[0m
+  [36m180[0m  [36m        (<! (timeout 30))[0m
+  [33m181[0m  [1m        (.requestAnimationFrame js/window time-loop)))))[0m
+  [0m   [0m  [33m        /Users/eric/Documents/project/game/src/game/core.cljs [line 181, col 57] Unmatched delimiter ).[0m
+  [36m182[0m  [36m[0m
+  [36m183[0m  [36m(defn start-game [level][0m
+  [36m184[0m  [36m  (def gravity 1)[0m
+
+[36m----  Reader Error : Please see src/game/core.cljs  ----[0m
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.473 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[36m----  Compiler Warning on   src/game/core.cljs   line:180  column:3  ----[0m
+
+  [1mgravity at line 18 is being replaced[0m
+
+  [36m176[0m  [36m        (<! (timeout 30))[0m
+  [36m177[0m  [36m        (.requestAnimationFrame js/window time-loop)))))[0m
+  [36m178[0m  [36m[0m
+  [36m179[0m  [36m(defn start-game [level][0m
+  [33m180[0m  [1m  (def gravity 1)[0m
+  [0m   [0m  [33m  ^--- gravity at line 18 is being replaced[0m
+  [36m181[0m  [36m;;  (if (= level 1)[0m
+  [36m182[0m  [36m;;    (easy-init)[0m
+  [36m183[0m  [36m;;    (if (= level 3)[0m
+  [36m184[0m  [36m;;      (hard-init)[0m
+  [36m185[0m  [36m;;      (normal-init)))[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.536 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[31mFailed to compile build :game from ["src"] in 0.229 seconds.[0m
+[36m----  Could not Analyze  src/game/core.cljs   line:30  column:1  ----[0m
+
+  [1mToo many arguments to def at line 30 src/game/core.cljs[0m
+
+  [36m28[0m  [36m(def pillar-gap 158) ;; 158[0m
+  [36m29[0m  [36m(def pillar-width 86)[0m
+  [33m30[0m  [1m(def easy-init [][0m
+  [0m  [0m  [33m^--- Too many arguments to def at line 30 src/game/core.cljs[0m
+  [36m31[0m  [36m  (def gravity 0.02))[0m
+  [36m32[0m  [36m(def hard-init [][0m
+  [36m33[0m  [36m  (def gravity 0.1))[0m
+
+[36m----  Analysis Error : Please see src/game/core.cljs  ----[0m
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[36m----  Compiler Warning on   src/game/core.cljs   line:31  column:3  ----[0m
+
+  [1mgravity at line 18 is being replaced[0m
+
+  [36m27[0m  [36m(def pillar-spacing 324)[0m
+  [36m28[0m  [36m(def pillar-gap 158) ;; 158[0m
+  [36m29[0m  [36m(def pillar-width 86)[0m
+  [36m30[0m  [36m(def easy-init[0m
+  [33m31[0m  [1m  (def gravity 0.02))[0m
+  [0m  [0m  [33m  ^--- gravity at line 18 is being replaced[0m
+  [36m32[0m  [36m(def hard-init[0m
+  [36m33[0m  [36m  (def gravity 0.1))[0m
+  [36m34[0m  [36m(def normal-init[0m
+  [36m35[0m  [36m  (def gravity 0.05))[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:33  column:3  ----[0m
+
+  [1mgravity at line 31 is being replaced[0m
+
+  [36m29[0m  [36m(def pillar-width 86)[0m
+  [36m30[0m  [36m(def easy-init[0m
+  [36m31[0m  [36m  (def gravity 0.02))[0m
+  [36m32[0m  [36m(def hard-init[0m
+  [33m33[0m  [1m  (def gravity 0.1))[0m
+  [0m  [0m  [33m  ^--- gravity at line 31 is being replaced[0m
+  [36m34[0m  [36m(def normal-init[0m
+  [36m35[0m  [36m  (def gravity 0.05))[0m
+  [36m36[0m  [36m[0m
+  [36m37[0m  [36m[0m
+  [36m38[0m  [36m(def starting-state { :timer-running false[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:35  column:3  ----[0m
+
+  [1mgravity at line 33 is being replaced[0m
+
+  [36m31[0m  [36m  (def gravity 0.02))[0m
+  [36m32[0m  [36m(def hard-init[0m
+  [36m33[0m  [36m  (def gravity 0.1))[0m
+  [36m34[0m  [36m(def normal-init[0m
+  [33m35[0m  [1m  (def gravity 0.05))[0m
+  [0m  [0m  [33m  ^--- gravity at line 33 is being replaced[0m
+  [36m36[0m  [36m[0m
+  [36m37[0m  [36m[0m
+  [36m38[0m  [36m(def starting-state { :timer-running false[0m
+  [36m39[0m  [36m                      :jump-count 0[0m
+  [36m40[0m  [36m                      :initial-vel 0[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.573 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[36m----  Compiler Warning on   src/game/core.cljs   line:31  column:3  ----[0m
+
+  [1mgravity at line 18 is being replaced[0m
+
+  [36m27[0m  [36m(def pillar-spacing 324)[0m
+  [36m28[0m  [36m(def pillar-gap 158) ;; 158[0m
+  [36m29[0m  [36m(def pillar-width 86)[0m
+  [36m30[0m  [36m(def easy-init[0m
+  [33m31[0m  [1m  (def gravity 0.02))[0m
+  [0m  [0m  [33m  ^--- gravity at line 18 is being replaced[0m
+  [36m32[0m  [36m(def hard-init[0m
+  [36m33[0m  [36m  (def gravity 0.1))[0m
+  [36m34[0m  [36m(def normal-init[0m
+  [36m35[0m  [36m  (def gravity 0.05))[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:33  column:3  ----[0m
+
+  [1mgravity at line 31 is being replaced[0m
+
+  [36m29[0m  [36m(def pillar-width 86)[0m
+  [36m30[0m  [36m(def easy-init[0m
+  [36m31[0m  [36m  (def gravity 0.02))[0m
+  [36m32[0m  [36m(def hard-init[0m
+  [33m33[0m  [1m  (def gravity 0.1))[0m
+  [0m  [0m  [33m  ^--- gravity at line 31 is being replaced[0m
+  [36m34[0m  [36m(def normal-init[0m
+  [36m35[0m  [36m  (def gravity 0.05))[0m
+  [36m36[0m  [36m[0m
+  [36m37[0m  [36m[0m
+  [36m38[0m  [36m(def starting-state { :timer-running false[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:35  column:3  ----[0m
+
+  [1mgravity at line 33 is being replaced[0m
+
+  [36m31[0m  [36m  (def gravity 0.02))[0m
+  [36m32[0m  [36m(def hard-init[0m
+  [36m33[0m  [36m  (def gravity 0.1))[0m
+  [36m34[0m  [36m(def normal-init[0m
+  [33m35[0m  [1m  (def gravity 0.05))[0m
+  [0m  [0m  [33m  ^--- gravity at line 33 is being replaced[0m
+  [36m36[0m  [36m[0m
+  [36m37[0m  [36m[0m
+  [36m38[0m  [36m(def starting-state { :timer-running false[0m
+  [36m39[0m  [36m                      :jump-count 0[0m
+  [36m40[0m  [36m                      :initial-vel 0[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.58 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[36m----  Compiler Warning on   src/game/core.cljs   line:31  column:3  ----[0m
+
+  [1mgravity at line 18 is being replaced[0m
+
+  [36m27[0m  [36m(def pillar-spacing 324)[0m
+  [36m28[0m  [36m(def pillar-gap 158) ;; 158[0m
+  [36m29[0m  [36m(def pillar-width 86)[0m
+  [36m30[0m  [36m(def easy-init[0m
+  [33m31[0m  [1m  (def gravity 0.02))[0m
+  [0m  [0m  [33m  ^--- gravity at line 18 is being replaced[0m
+  [36m32[0m  [36m(def hard-init[0m
+  [36m33[0m  [36m  (def gravity 0.1))[0m
+  [36m34[0m  [36m(def normal-init[0m
+  [36m35[0m  [36m  (def gravity 0.05))[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:33  column:3  ----[0m
+
+  [1mgravity at line 31 is being replaced[0m
+
+  [36m29[0m  [36m(def pillar-width 86)[0m
+  [36m30[0m  [36m(def easy-init[0m
+  [36m31[0m  [36m  (def gravity 0.02))[0m
+  [36m32[0m  [36m(def hard-init[0m
+  [33m33[0m  [1m  (def gravity 0.1))[0m
+  [0m  [0m  [33m  ^--- gravity at line 31 is being replaced[0m
+  [36m34[0m  [36m(def normal-init[0m
+  [36m35[0m  [36m  (def gravity 0.05))[0m
+  [36m36[0m  [36m[0m
+  [36m37[0m  [36m[0m
+  [36m38[0m  [36m(def starting-state { :timer-running false[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:35  column:3  ----[0m
+
+  [1mgravity at line 33 is being replaced[0m
+
+  [36m31[0m  [36m  (def gravity 0.02))[0m
+  [36m32[0m  [36m(def hard-init[0m
+  [36m33[0m  [36m  (def gravity 0.1))[0m
+  [36m34[0m  [36m(def normal-init[0m
+  [33m35[0m  [1m  (def gravity 0.05))[0m
+  [0m  [0m  [33m  ^--- gravity at line 33 is being replaced[0m
+  [36m36[0m  [36m[0m
+  [36m37[0m  [36m[0m
+  [36m38[0m  [36m(def starting-state { :timer-running false[0m
+  [36m39[0m  [36m                      :jump-count 0[0m
+  [36m40[0m  [36m                      :initial-vel 0[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.585 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[31mFailed to compile build :game from ["src"] in 0.208 seconds.[0m
+[36m----  Could not Analyze  src/game/core.cljs   line:30  column:1  ----[0m
+
+  [1mParameter declaration "def" should be a vector[0m
+
+  [36m28[0m  [36m(def pillar-gap 158) ;; 158[0m
+  [36m29[0m  [36m(def pillar-width 86)[0m
+  [33m30[0m  [1m(defn easy-init[0m
+  [0m  [0m  [33m^--- Parameter declaration "def" should be a vector[0m
+  [36m31[0m  [36m  (def gravity 0.02))[0m
+  [36m32[0m  [36m(def hard-init[0m
+  [36m33[0m  [36m  (def gravity 0.1))[0m
+
+[36m----  Analysis Error : Please see src/game/core.cljs  ----[0m
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[36m----  Compiler Warning on   src/game/core.cljs   line:31  column:3  ----[0m
+
+  [1mgravity at line 18 is being replaced[0m
+
+  [36m27[0m  [36m(def pillar-spacing 324)[0m
+  [36m28[0m  [36m(def pillar-gap 158) ;; 158[0m
+  [36m29[0m  [36m(def pillar-width 86)[0m
+  [36m30[0m  [36m(defn easy-init [][0m
+  [33m31[0m  [1m  (def gravity 0.02))[0m
+  [0m  [0m  [33m  ^--- gravity at line 18 is being replaced[0m
+  [36m32[0m  [36m(def hard-init[0m
+  [36m33[0m  [36m  (def gravity 0.1))[0m
+  [36m34[0m  [36m(def normal-init[0m
+  [36m35[0m  [36m  (def gravity 0.05))[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:33  column:3  ----[0m
+
+  [1mgravity at line 31 is being replaced[0m
+
+  [36m29[0m  [36m(def pillar-width 86)[0m
+  [36m30[0m  [36m(defn easy-init [][0m
+  [36m31[0m  [36m  (def gravity 0.02))[0m
+  [36m32[0m  [36m(def hard-init[0m
+  [33m33[0m  [1m  (def gravity 0.1))[0m
+  [0m  [0m  [33m  ^--- gravity at line 31 is being replaced[0m
+  [36m34[0m  [36m(def normal-init[0m
+  [36m35[0m  [36m  (def gravity 0.05))[0m
+  [36m36[0m  [36m[0m
+  [36m37[0m  [36m[0m
+  [36m38[0m  [36m(def starting-state { :timer-running false[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:35  column:3  ----[0m
+
+  [1mgravity at line 33 is being replaced[0m
+
+  [36m31[0m  [36m  (def gravity 0.02))[0m
+  [36m32[0m  [36m(def hard-init[0m
+  [36m33[0m  [36m  (def gravity 0.1))[0m
+  [36m34[0m  [36m(def normal-init[0m
+  [33m35[0m  [1m  (def gravity 0.05))[0m
+  [0m  [0m  [33m  ^--- gravity at line 33 is being replaced[0m
+  [36m36[0m  [36m[0m
+  [36m37[0m  [36m[0m
+  [36m38[0m  [36m(def starting-state { :timer-running false[0m
+  [36m39[0m  [36m                      :jump-count 0[0m
+  [36m40[0m  [36m                      :initial-vel 0[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.591 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[36m----  Compiler Warning on   src/game/core.cljs   line:31  column:3  ----[0m
+
+  [1mgravity at line 18 is being replaced[0m
+
+  [36m27[0m  [36m(def pillar-spacing 324)[0m
+  [36m28[0m  [36m(def pillar-gap 158) ;; 158[0m
+  [36m29[0m  [36m(def pillar-width 86)[0m
+  [36m30[0m  [36m(defn easy-init [][0m
+  [33m31[0m  [1m  (def gravity 0.02))[0m
+  [0m  [0m  [33m  ^--- gravity at line 18 is being replaced[0m
+  [36m32[0m  [36m(defn hard-init [][0m
+  [36m33[0m  [36m  (def gravity 0.1))[0m
+  [36m34[0m  [36m(defn normal-init [][0m
+  [36m35[0m  [36m  (def gravity 0.05))[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:33  column:3  ----[0m
+
+  [1mgravity at line 31 is being replaced[0m
+
+  [36m29[0m  [36m(def pillar-width 86)[0m
+  [36m30[0m  [36m(defn easy-init [][0m
+  [36m31[0m  [36m  (def gravity 0.02))[0m
+  [36m32[0m  [36m(defn hard-init [][0m
+  [33m33[0m  [1m  (def gravity 0.1))[0m
+  [0m  [0m  [33m  ^--- gravity at line 31 is being replaced[0m
+  [36m34[0m  [36m(defn normal-init [][0m
+  [36m35[0m  [36m  (def gravity 0.05))[0m
+  [36m36[0m  [36m[0m
+  [36m37[0m  [36m[0m
+  [36m38[0m  [36m(def starting-state { :timer-running false[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:35  column:3  ----[0m
+
+  [1mgravity at line 33 is being replaced[0m
+
+  [36m31[0m  [36m  (def gravity 0.02))[0m
+  [36m32[0m  [36m(defn hard-init [][0m
+  [36m33[0m  [36m  (def gravity 0.1))[0m
+  [36m34[0m  [36m(defn normal-init [][0m
+  [33m35[0m  [1m  (def gravity 0.05))[0m
+  [0m  [0m  [33m  ^--- gravity at line 33 is being replaced[0m
+  [36m36[0m  [36m[0m
+  [36m37[0m  [36m[0m
+  [36m38[0m  [36m(def starting-state { :timer-running false[0m
+  [36m39[0m  [36m                      :jump-count 0[0m
+  [36m40[0m  [36m                      :initial-vel 0[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.569 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[36m----  Compiler Warning on   src/game/core.cljs   line:31  column:3  ----[0m
+
+  [1mgravity at line 18 is being replaced[0m
+
+  [36m27[0m  [36m(def pillar-spacing 324)[0m
+  [36m28[0m  [36m(def pillar-gap 158) ;; 158[0m
+  [36m29[0m  [36m(def pillar-width 86)[0m
+  [36m30[0m  [36m(defn easy-init [][0m
+  [33m31[0m  [1m  (def gravity 0.02))[0m
+  [0m  [0m  [33m  ^--- gravity at line 18 is being replaced[0m
+  [36m32[0m  [36m(defn hard-init [][0m
+  [36m33[0m  [36m  (def gravity 0.1))[0m
+  [36m34[0m  [36m(defn normal-init [][0m
+  [36m35[0m  [36m  (def gravity 0.05))[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:33  column:3  ----[0m
+
+  [1mgravity at line 31 is being replaced[0m
+
+  [36m29[0m  [36m(def pillar-width 86)[0m
+  [36m30[0m  [36m(defn easy-init [][0m
+  [36m31[0m  [36m  (def gravity 0.02))[0m
+  [36m32[0m  [36m(defn hard-init [][0m
+  [33m33[0m  [1m  (def gravity 0.1))[0m
+  [0m  [0m  [33m  ^--- gravity at line 31 is being replaced[0m
+  [36m34[0m  [36m(defn normal-init [][0m
+  [36m35[0m  [36m  (def gravity 0.05))[0m
+  [36m36[0m  [36m[0m
+  [36m37[0m  [36m[0m
+  [36m38[0m  [36m(def starting-state { :timer-running false[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:35  column:3  ----[0m
+
+  [1mgravity at line 33 is being replaced[0m
+
+  [36m31[0m  [36m  (def gravity 0.02))[0m
+  [36m32[0m  [36m(defn hard-init [][0m
+  [36m33[0m  [36m  (def gravity 0.1))[0m
+  [36m34[0m  [36m(defn normal-init [][0m
+  [33m35[0m  [1m  (def gravity 0.05))[0m
+  [0m  [0m  [33m  ^--- gravity at line 33 is being replaced[0m
+  [36m36[0m  [36m[0m
+  [36m37[0m  [36m[0m
+  [36m38[0m  [36m(def starting-state { :timer-running false[0m
+  [36m39[0m  [36m                      :jump-count 0[0m
+  [36m40[0m  [36m                      :initial-vel 0[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.556 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[36m----  Compiler Warning on   src/game/core.cljs   line:29  column:3  ----[0m
+
+  [1mgravity at line 18 is being replaced[0m
+
+  [36m25[0m  [36m(def pillar-spacing 324)[0m
+  [36m26[0m  [36m(def pillar-gap 158) ;; 158[0m
+  [36m27[0m  [36m(def pillar-width 86)[0m
+  [36m28[0m  [36m(defn easy-init [][0m
+  [33m29[0m  [1m  (def gravity 0.05))[0m
+  [0m  [0m  [33m  ^--- gravity at line 18 is being replaced[0m
+  [36m30[0m  [36m(defn hard-init [][0m
+  [36m31[0m  [36m  (def gravity 0.10))[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.15))[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:31  column:3  ----[0m
+
+  [1mgravity at line 29 is being replaced[0m
+
+  [36m27[0m  [36m(def pillar-width 86)[0m
+  [36m28[0m  [36m(defn easy-init [][0m
+  [36m29[0m  [36m  (def gravity 0.05))[0m
+  [36m30[0m  [36m(defn hard-init [][0m
+  [33m31[0m  [1m  (def gravity 0.10))[0m
+  [0m  [0m  [33m  ^--- gravity at line 29 is being replaced[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.15))[0m
+  [36m34[0m  [36m[0m
+  [36m35[0m  [36m[0m
+  [36m36[0m  [36m(def starting-state { :timer-running false[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:33  column:3  ----[0m
+
+  [1mgravity at line 31 is being replaced[0m
+
+  [36m29[0m  [36m  (def gravity 0.05))[0m
+  [36m30[0m  [36m(defn hard-init [][0m
+  [36m31[0m  [36m  (def gravity 0.10))[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [33m33[0m  [1m  (def gravity 0.15))[0m
+  [0m  [0m  [33m  ^--- gravity at line 31 is being replaced[0m
+  [36m34[0m  [36m[0m
+  [36m35[0m  [36m[0m
+  [36m36[0m  [36m(def starting-state { :timer-running false[0m
+  [36m37[0m  [36m                      :jump-count 0[0m
+  [36m38[0m  [36m                      :initial-vel 0[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 1.17 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[36m----  Compiler Warning on   src/game/core.cljs   line:29  column:3  ----[0m
+
+  [1mgravity at line 18 is being replaced[0m
+
+  [36m25[0m  [36m(def pillar-spacing 324)[0m
+  [36m26[0m  [36m(def pillar-gap 158) ;; 158[0m
+  [36m27[0m  [36m(def pillar-width 86)[0m
+  [36m28[0m  [36m(defn easy-init [][0m
+  [33m29[0m  [1m  (def gravity 0.05))[0m
+  [0m  [0m  [33m  ^--- gravity at line 18 is being replaced[0m
+  [36m30[0m  [36m(defn hard-init [][0m
+  [36m31[0m  [36m  (def gravity 0.05))[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.10))[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:31  column:3  ----[0m
+
+  [1mgravity at line 29 is being replaced[0m
+
+  [36m27[0m  [36m(def pillar-width 86)[0m
+  [36m28[0m  [36m(defn easy-init [][0m
+  [36m29[0m  [36m  (def gravity 0.05))[0m
+  [36m30[0m  [36m(defn hard-init [][0m
+  [33m31[0m  [1m  (def gravity 0.05))[0m
+  [0m  [0m  [33m  ^--- gravity at line 29 is being replaced[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.10))[0m
+  [36m34[0m  [36m[0m
+  [36m35[0m  [36m[0m
+  [36m36[0m  [36m(def starting-state { :timer-running false[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:33  column:3  ----[0m
+
+  [1mgravity at line 31 is being replaced[0m
+
+  [36m29[0m  [36m  (def gravity 0.05))[0m
+  [36m30[0m  [36m(defn hard-init [][0m
+  [36m31[0m  [36m  (def gravity 0.05))[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [33m33[0m  [1m  (def gravity 0.10))[0m
+  [0m  [0m  [33m  ^--- gravity at line 31 is being replaced[0m
+  [36m34[0m  [36m[0m
+  [36m35[0m  [36m[0m
+  [36m36[0m  [36m(def starting-state { :timer-running false[0m
+  [36m37[0m  [36m                      :jump-count 0[0m
+  [36m38[0m  [36m                      :initial-vel 0[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.566 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[36m----  Compiler Warning on   src/game/core.cljs   line:29  column:3  ----[0m
+
+  [1mgravity at line 18 is being replaced[0m
+
+  [36m25[0m  [36m(def pillar-spacing 324)[0m
+  [36m26[0m  [36m(def pillar-gap 158) ;; 158[0m
+  [36m27[0m  [36m(def pillar-width 86)[0m
+  [36m28[0m  [36m(defn easy-init [][0m
+  [33m29[0m  [1m  (def gravity 0.05)[0m
+  [0m  [0m  [33m  ^--- gravity at line 18 is being replaced[0m
+  [36m30[0m  [36m  (def pillar-gap 200))[0m
+  [36m31[0m  [36m(defn hard-init [][0m
+  [36m32[0m  [36m  (def gravity 0.05)[0m
+  [36m33[0m  [36m  (def pillar-gap 150))[0m
+  [36m34[0m  [36m(defn normal-init [][0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:30  column:3  ----[0m
+
+  [1mpillar-gap at line 26 is being replaced[0m
+
+  [36m26[0m  [36m(def pillar-gap 158) ;; 158[0m
+  [36m27[0m  [36m(def pillar-width 86)[0m
+  [36m28[0m  [36m(defn easy-init [][0m
+  [36m29[0m  [36m  (def gravity 0.05)[0m
+  [33m30[0m  [1m  (def pillar-gap 200))[0m
+  [0m  [0m  [33m  ^--- pillar-gap at line 26 is being replaced[0m
+  [36m31[0m  [36m(defn hard-init [][0m
+  [36m32[0m  [36m  (def gravity 0.05)[0m
+  [36m33[0m  [36m  (def pillar-gap 150))[0m
+  [36m34[0m  [36m(defn normal-init [][0m
+  [36m35[0m  [36m  (def gravity 0.10)[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:32  column:3  ----[0m
+
+  [1mgravity at line 29 is being replaced[0m
+
+  [36m28[0m  [36m(defn easy-init [][0m
+  [36m29[0m  [36m  (def gravity 0.05)[0m
+  [36m30[0m  [36m  (def pillar-gap 200))[0m
+  [36m31[0m  [36m(defn hard-init [][0m
+  [33m32[0m  [1m  (def gravity 0.05)[0m
+  [0m  [0m  [33m  ^--- gravity at line 29 is being replaced[0m
+  [36m33[0m  [36m  (def pillar-gap 150))[0m
+  [36m34[0m  [36m(defn normal-init [][0m
+  [36m35[0m  [36m  (def gravity 0.10)[0m
+  [36m36[0m  [36m  (def pillar-gap 100))[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:33  column:3  ----[0m
+
+  [1mpillar-gap at line 30 is being replaced[0m
+
+  [36m29[0m  [36m  (def gravity 0.05)[0m
+  [36m30[0m  [36m  (def pillar-gap 200))[0m
+  [36m31[0m  [36m(defn hard-init [][0m
+  [36m32[0m  [36m  (def gravity 0.05)[0m
+  [33m33[0m  [1m  (def pillar-gap 150))[0m
+  [0m  [0m  [33m  ^--- pillar-gap at line 30 is being replaced[0m
+  [36m34[0m  [36m(defn normal-init [][0m
+  [36m35[0m  [36m  (def gravity 0.10)[0m
+  [36m36[0m  [36m  (def pillar-gap 100))[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:35  column:3  ----[0m
+
+  [1mgravity at line 32 is being replaced[0m
+
+  [36m31[0m  [36m(defn hard-init [][0m
+  [36m32[0m  [36m  (def gravity 0.05)[0m
+  [36m33[0m  [36m  (def pillar-gap 150))[0m
+  [36m34[0m  [36m(defn normal-init [][0m
+  [33m35[0m  [1m  (def gravity 0.10)[0m
+  [0m  [0m  [33m  ^--- gravity at line 32 is being replaced[0m
+  [36m36[0m  [36m  (def pillar-gap 100))[0m
+  [36m37[0m  [36m[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(def starting-state { :timer-running false[0m
+  [36m40[0m  [36m                      :jump-count 0[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:36  column:3  ----[0m
+
+  [1mpillar-gap at line 33 is being replaced[0m
+
+  [36m32[0m  [36m  (def gravity 0.05)[0m
+  [36m33[0m  [36m  (def pillar-gap 150))[0m
+  [36m34[0m  [36m(defn normal-init [][0m
+  [36m35[0m  [36m  (def gravity 0.10)[0m
+  [33m36[0m  [1m  (def pillar-gap 100))[0m
+  [0m  [0m  [33m  ^--- pillar-gap at line 33 is being replaced[0m
+  [36m37[0m  [36m[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(def starting-state { :timer-running false[0m
+  [36m40[0m  [36m                      :jump-count 0[0m
+  [36m41[0m  [36m                      :initial-vel 0[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.62 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[36m----  Compiler Warning on   src/game/core.cljs   line:29  column:3  ----[0m
+
+  [1mgravity at line 18 is being replaced[0m
+
+  [36m25[0m  [36m(def pillar-spacing 324)[0m
+  [36m26[0m  [36m(def pillar-gap 158) ;; 158[0m
+  [36m27[0m  [36m(def pillar-width 86)[0m
+  [36m28[0m  [36m(defn easy-init [][0m
+  [33m29[0m  [1m  (def gravity 0.05)[0m
+  [0m  [0m  [33m  ^--- gravity at line 18 is being replaced[0m
+  [36m30[0m  [36m  (def pillar-gap 200))[0m
+  [36m31[0m  [36m(defn hard-init [][0m
+  [36m32[0m  [36m  (def gravity 0.05)[0m
+  [36m33[0m  [36m  (def pillar-gap 150))[0m
+  [36m34[0m  [36m(defn normal-init [][0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:30  column:3  ----[0m
+
+  [1mpillar-gap at line 26 is being replaced[0m
+
+  [36m26[0m  [36m(def pillar-gap 158) ;; 158[0m
+  [36m27[0m  [36m(def pillar-width 86)[0m
+  [36m28[0m  [36m(defn easy-init [][0m
+  [36m29[0m  [36m  (def gravity 0.05)[0m
+  [33m30[0m  [1m  (def pillar-gap 200))[0m
+  [0m  [0m  [33m  ^--- pillar-gap at line 26 is being replaced[0m
+  [36m31[0m  [36m(defn hard-init [][0m
+  [36m32[0m  [36m  (def gravity 0.05)[0m
+  [36m33[0m  [36m  (def pillar-gap 150))[0m
+  [36m34[0m  [36m(defn normal-init [][0m
+  [36m35[0m  [36m  (def gravity 0.10)[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:32  column:3  ----[0m
+
+  [1mgravity at line 29 is being replaced[0m
+
+  [36m28[0m  [36m(defn easy-init [][0m
+  [36m29[0m  [36m  (def gravity 0.05)[0m
+  [36m30[0m  [36m  (def pillar-gap 200))[0m
+  [36m31[0m  [36m(defn hard-init [][0m
+  [33m32[0m  [1m  (def gravity 0.05)[0m
+  [0m  [0m  [33m  ^--- gravity at line 29 is being replaced[0m
+  [36m33[0m  [36m  (def pillar-gap 150))[0m
+  [36m34[0m  [36m(defn normal-init [][0m
+  [36m35[0m  [36m  (def gravity 0.10)[0m
+  [36m36[0m  [36m  (def pillar-gap 100))[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:33  column:3  ----[0m
+
+  [1mpillar-gap at line 30 is being replaced[0m
+
+  [36m29[0m  [36m  (def gravity 0.05)[0m
+  [36m30[0m  [36m  (def pillar-gap 200))[0m
+  [36m31[0m  [36m(defn hard-init [][0m
+  [36m32[0m  [36m  (def gravity 0.05)[0m
+  [33m33[0m  [1m  (def pillar-gap 150))[0m
+  [0m  [0m  [33m  ^--- pillar-gap at line 30 is being replaced[0m
+  [36m34[0m  [36m(defn normal-init [][0m
+  [36m35[0m  [36m  (def gravity 0.10)[0m
+  [36m36[0m  [36m  (def pillar-gap 100))[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:35  column:3  ----[0m
+
+  [1mgravity at line 32 is being replaced[0m
+
+  [36m31[0m  [36m(defn hard-init [][0m
+  [36m32[0m  [36m  (def gravity 0.05)[0m
+  [36m33[0m  [36m  (def pillar-gap 150))[0m
+  [36m34[0m  [36m(defn normal-init [][0m
+  [33m35[0m  [1m  (def gravity 0.10)[0m
+  [0m  [0m  [33m  ^--- gravity at line 32 is being replaced[0m
+  [36m36[0m  [36m  (def pillar-gap 100))[0m
+  [36m37[0m  [36m[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(def starting-state { :timer-running false[0m
+  [36m40[0m  [36m                      :jump-count 0[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:36  column:3  ----[0m
+
+  [1mpillar-gap at line 33 is being replaced[0m
+
+  [36m32[0m  [36m  (def gravity 0.05)[0m
+  [36m33[0m  [36m  (def pillar-gap 150))[0m
+  [36m34[0m  [36m(defn normal-init [][0m
+  [36m35[0m  [36m  (def gravity 0.10)[0m
+  [33m36[0m  [1m  (def pillar-gap 100))[0m
+  [0m  [0m  [33m  ^--- pillar-gap at line 33 is being replaced[0m
+  [36m37[0m  [36m[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(def starting-state { :timer-running false[0m
+  [36m40[0m  [36m                      :jump-count 0[0m
+  [36m41[0m  [36m                      :initial-vel 0[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.537 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[36m----  Compiler Warning on   src/game/core.cljs   line:30  column:3  ----[0m
+
+  [1mgravity at line 18 is being replaced[0m
+
+  [36m26[0m  [36m(def pillar-gap 158) ;; 158[0m
+  [36m27[0m  [36m(def pillar-width 86)[0m
+  [36m28[0m  [36m[0m
+  [36m29[0m  [36m(defn easy-init [][0m
+  [33m30[0m  [1m  (def gravity 0.05)[0m
+  [0m  [0m  [33m  ^--- gravity at line 18 is being replaced[0m
+  [36m31[0m  [36m  (def pillar-gap 200))[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [36m34[0m  [36m  (def pillar-gap 150))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:31  column:3  ----[0m
+
+  [1mpillar-gap at line 26 is being replaced[0m
+
+  [36m27[0m  [36m(def pillar-width 86)[0m
+  [36m28[0m  [36m[0m
+  [36m29[0m  [36m(defn easy-init [][0m
+  [36m30[0m  [36m  (def gravity 0.05)[0m
+  [33m31[0m  [1m  (def pillar-gap 200))[0m
+  [0m  [0m  [33m  ^--- pillar-gap at line 26 is being replaced[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [36m34[0m  [36m  (def pillar-gap 150))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [36m36[0m  [36m  (def gravity 0.10)[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:33  column:3  ----[0m
+
+  [1mgravity at line 30 is being replaced[0m
+
+  [36m29[0m  [36m(defn easy-init [][0m
+  [36m30[0m  [36m  (def gravity 0.05)[0m
+  [36m31[0m  [36m  (def pillar-gap 200))[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [33m33[0m  [1m  (def gravity 0.05)[0m
+  [0m  [0m  [33m  ^--- gravity at line 30 is being replaced[0m
+  [36m34[0m  [36m  (def pillar-gap 150))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [36m36[0m  [36m  (def gravity 0.10)[0m
+  [36m37[0m  [36m  (def pillar-gap 100))[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:34  column:3  ----[0m
+
+  [1mpillar-gap at line 31 is being replaced[0m
+
+  [36m30[0m  [36m  (def gravity 0.05)[0m
+  [36m31[0m  [36m  (def pillar-gap 200))[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [33m34[0m  [1m  (def pillar-gap 150))[0m
+  [0m  [0m  [33m  ^--- pillar-gap at line 31 is being replaced[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [36m36[0m  [36m  (def gravity 0.10)[0m
+  [36m37[0m  [36m  (def pillar-gap 100))[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:36  column:3  ----[0m
+
+  [1mgravity at line 33 is being replaced[0m
+
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [36m34[0m  [36m  (def pillar-gap 150))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [33m36[0m  [1m  (def gravity 0.10)[0m
+  [0m  [0m  [33m  ^--- gravity at line 33 is being replaced[0m
+  [36m37[0m  [36m  (def pillar-gap 100))[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m[0m
+  [36m40[0m  [36m(def starting-state { :timer-running false[0m
+  [36m41[0m  [36m                      :jump-count 0[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:37  column:3  ----[0m
+
+  [1mpillar-gap at line 34 is being replaced[0m
+
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [36m34[0m  [36m  (def pillar-gap 150))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [36m36[0m  [36m  (def gravity 0.10)[0m
+  [33m37[0m  [1m  (def pillar-gap 100))[0m
+  [0m  [0m  [33m  ^--- pillar-gap at line 34 is being replaced[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m[0m
+  [36m40[0m  [36m(def starting-state { :timer-running false[0m
+  [36m41[0m  [36m                      :jump-count 0[0m
+  [36m42[0m  [36m                      :initial-vel 0[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.56 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[36m----  Compiler Warning on   src/game/core.cljs   line:30  column:3  ----[0m
+
+  [1mgravity at line 18 is being replaced[0m
+
+  [36m26[0m  [36m(def pillar-gap 158) ;; 158[0m
+  [36m27[0m  [36m(def pillar-width 86)[0m
+  [36m28[0m  [36m[0m
+  [36m29[0m  [36m(defn easy-init [][0m
+  [33m30[0m  [1m  (def gravity 0.05)[0m
+  [0m  [0m  [33m  ^--- gravity at line 18 is being replaced[0m
+  [36m31[0m  [36m  (def pillar-gap 300))[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [36m34[0m  [36m  (def pillar-gap 150))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:31  column:3  ----[0m
+
+  [1mpillar-gap at line 26 is being replaced[0m
+
+  [36m27[0m  [36m(def pillar-width 86)[0m
+  [36m28[0m  [36m[0m
+  [36m29[0m  [36m(defn easy-init [][0m
+  [36m30[0m  [36m  (def gravity 0.05)[0m
+  [33m31[0m  [1m  (def pillar-gap 300))[0m
+  [0m  [0m  [33m  ^--- pillar-gap at line 26 is being replaced[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [36m34[0m  [36m  (def pillar-gap 150))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [36m36[0m  [36m  (def gravity 0.10)[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:33  column:3  ----[0m
+
+  [1mgravity at line 30 is being replaced[0m
+
+  [36m29[0m  [36m(defn easy-init [][0m
+  [36m30[0m  [36m  (def gravity 0.05)[0m
+  [36m31[0m  [36m  (def pillar-gap 300))[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [33m33[0m  [1m  (def gravity 0.05)[0m
+  [0m  [0m  [33m  ^--- gravity at line 30 is being replaced[0m
+  [36m34[0m  [36m  (def pillar-gap 150))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [36m36[0m  [36m  (def gravity 0.10)[0m
+  [36m37[0m  [36m  (def pillar-gap 100))[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:34  column:3  ----[0m
+
+  [1mpillar-gap at line 31 is being replaced[0m
+
+  [36m30[0m  [36m  (def gravity 0.05)[0m
+  [36m31[0m  [36m  (def pillar-gap 300))[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [33m34[0m  [1m  (def pillar-gap 150))[0m
+  [0m  [0m  [33m  ^--- pillar-gap at line 31 is being replaced[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [36m36[0m  [36m  (def gravity 0.10)[0m
+  [36m37[0m  [36m  (def pillar-gap 100))[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:36  column:3  ----[0m
+
+  [1mgravity at line 33 is being replaced[0m
+
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [36m34[0m  [36m  (def pillar-gap 150))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [33m36[0m  [1m  (def gravity 0.10)[0m
+  [0m  [0m  [33m  ^--- gravity at line 33 is being replaced[0m
+  [36m37[0m  [36m  (def pillar-gap 100))[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m[0m
+  [36m40[0m  [36m(def starting-state { :timer-running false[0m
+  [36m41[0m  [36m                      :jump-count 0[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:37  column:3  ----[0m
+
+  [1mpillar-gap at line 34 is being replaced[0m
+
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [36m34[0m  [36m  (def pillar-gap 150))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [36m36[0m  [36m  (def gravity 0.10)[0m
+  [33m37[0m  [1m  (def pillar-gap 100))[0m
+  [0m  [0m  [33m  ^--- pillar-gap at line 34 is being replaced[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m[0m
+  [36m40[0m  [36m(def starting-state { :timer-running false[0m
+  [36m41[0m  [36m                      :jump-count 0[0m
+  [36m42[0m  [36m                      :initial-vel 0[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.625 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[36m----  Compiler Warning on   src/game/core.cljs   line:30  column:3  ----[0m
+
+  [1mgravity at line 18 is being replaced[0m
+
+  [36m26[0m  [36m(def pillar-gap 158) ;; 158[0m
+  [36m27[0m  [36m(def pillar-width 86)[0m
+  [36m28[0m  [36m[0m
+  [36m29[0m  [36m(defn easy-init [][0m
+  [33m30[0m  [1m  (def gravity 0.05)[0m
+  [0m  [0m  [33m  ^--- gravity at line 18 is being replaced[0m
+  [36m31[0m  [36m  (def pillar-gap 300))[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [36m34[0m  [36m  (def pillar-gap 180))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:31  column:3  ----[0m
+
+  [1mpillar-gap at line 26 is being replaced[0m
+
+  [36m27[0m  [36m(def pillar-width 86)[0m
+  [36m28[0m  [36m[0m
+  [36m29[0m  [36m(defn easy-init [][0m
+  [36m30[0m  [36m  (def gravity 0.05)[0m
+  [33m31[0m  [1m  (def pillar-gap 300))[0m
+  [0m  [0m  [33m  ^--- pillar-gap at line 26 is being replaced[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [36m34[0m  [36m  (def pillar-gap 180))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [36m36[0m  [36m  (def gravity 0.08)[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:33  column:3  ----[0m
+
+  [1mgravity at line 30 is being replaced[0m
+
+  [36m29[0m  [36m(defn easy-init [][0m
+  [36m30[0m  [36m  (def gravity 0.05)[0m
+  [36m31[0m  [36m  (def pillar-gap 300))[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [33m33[0m  [1m  (def gravity 0.05)[0m
+  [0m  [0m  [33m  ^--- gravity at line 30 is being replaced[0m
+  [36m34[0m  [36m  (def pillar-gap 180))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [36m36[0m  [36m  (def gravity 0.08)[0m
+  [36m37[0m  [36m  (def pillar-gap 130))[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:34  column:3  ----[0m
+
+  [1mpillar-gap at line 31 is being replaced[0m
+
+  [36m30[0m  [36m  (def gravity 0.05)[0m
+  [36m31[0m  [36m  (def pillar-gap 300))[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [33m34[0m  [1m  (def pillar-gap 180))[0m
+  [0m  [0m  [33m  ^--- pillar-gap at line 31 is being replaced[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [36m36[0m  [36m  (def gravity 0.08)[0m
+  [36m37[0m  [36m  (def pillar-gap 130))[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:36  column:3  ----[0m
+
+  [1mgravity at line 33 is being replaced[0m
+
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [36m34[0m  [36m  (def pillar-gap 180))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [33m36[0m  [1m  (def gravity 0.08)[0m
+  [0m  [0m  [33m  ^--- gravity at line 33 is being replaced[0m
+  [36m37[0m  [36m  (def pillar-gap 130))[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m[0m
+  [36m40[0m  [36m(def starting-state { :timer-running false[0m
+  [36m41[0m  [36m                      :jump-count 0[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:37  column:3  ----[0m
+
+  [1mpillar-gap at line 34 is being replaced[0m
+
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [36m34[0m  [36m  (def pillar-gap 180))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [36m36[0m  [36m  (def gravity 0.08)[0m
+  [33m37[0m  [1m  (def pillar-gap 130))[0m
+  [0m  [0m  [33m  ^--- pillar-gap at line 34 is being replaced[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m[0m
+  [36m40[0m  [36m(def starting-state { :timer-running false[0m
+  [36m41[0m  [36m                      :jump-count 0[0m
+  [36m42[0m  [36m                      :initial-vel 0[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.601 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[36m----  Compiler Warning on   src/game/core.cljs   line:30  column:3  ----[0m
+
+  [1mgravity at line 18 is being replaced[0m
+
+  [36m26[0m  [36m(def pillar-gap 158) ;; 158[0m
+  [36m27[0m  [36m(def pillar-width 86)[0m
+  [36m28[0m  [36m[0m
+  [36m29[0m  [36m(defn easy-init [][0m
+  [33m30[0m  [1m  (def gravity 0.05)[0m
+  [0m  [0m  [33m  ^--- gravity at line 18 is being replaced[0m
+  [36m31[0m  [36m  (def pillar-gap 300))[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [36m34[0m  [36m  (def pillar-gap 180))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:31  column:3  ----[0m
+
+  [1mpillar-gap at line 26 is being replaced[0m
+
+  [36m27[0m  [36m(def pillar-width 86)[0m
+  [36m28[0m  [36m[0m
+  [36m29[0m  [36m(defn easy-init [][0m
+  [36m30[0m  [36m  (def gravity 0.05)[0m
+  [33m31[0m  [1m  (def pillar-gap 300))[0m
+  [0m  [0m  [33m  ^--- pillar-gap at line 26 is being replaced[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [36m34[0m  [36m  (def pillar-gap 180))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [36m36[0m  [36m  (def gravity 0.08)[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:33  column:3  ----[0m
+
+  [1mgravity at line 30 is being replaced[0m
+
+  [36m29[0m  [36m(defn easy-init [][0m
+  [36m30[0m  [36m  (def gravity 0.05)[0m
+  [36m31[0m  [36m  (def pillar-gap 300))[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [33m33[0m  [1m  (def gravity 0.05)[0m
+  [0m  [0m  [33m  ^--- gravity at line 30 is being replaced[0m
+  [36m34[0m  [36m  (def pillar-gap 180))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [36m36[0m  [36m  (def gravity 0.08)[0m
+  [36m37[0m  [36m  (def pillar-gap 150))[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:34  column:3  ----[0m
+
+  [1mpillar-gap at line 31 is being replaced[0m
+
+  [36m30[0m  [36m  (def gravity 0.05)[0m
+  [36m31[0m  [36m  (def pillar-gap 300))[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [33m34[0m  [1m  (def pillar-gap 180))[0m
+  [0m  [0m  [33m  ^--- pillar-gap at line 31 is being replaced[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [36m36[0m  [36m  (def gravity 0.08)[0m
+  [36m37[0m  [36m  (def pillar-gap 150))[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:36  column:3  ----[0m
+
+  [1mgravity at line 33 is being replaced[0m
+
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [36m34[0m  [36m  (def pillar-gap 180))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [33m36[0m  [1m  (def gravity 0.08)[0m
+  [0m  [0m  [33m  ^--- gravity at line 33 is being replaced[0m
+  [36m37[0m  [36m  (def pillar-gap 150))[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m[0m
+  [36m40[0m  [36m(def starting-state { :timer-running false[0m
+  [36m41[0m  [36m                      :jump-count 0[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:37  column:3  ----[0m
+
+  [1mpillar-gap at line 34 is being replaced[0m
+
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [36m34[0m  [36m  (def pillar-gap 180))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [36m36[0m  [36m  (def gravity 0.08)[0m
+  [33m37[0m  [1m  (def pillar-gap 150))[0m
+  [0m  [0m  [33m  ^--- pillar-gap at line 34 is being replaced[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m[0m
+  [36m40[0m  [36m(def starting-state { :timer-running false[0m
+  [36m41[0m  [36m                      :jump-count 0[0m
+  [36m42[0m  [36m                      :initial-vel 0[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.585 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[36m----  Compiler Warning on   src/game/core.cljs   line:30  column:3  ----[0m
+
+  [1mgravity at line 18 is being replaced[0m
+
+  [36m26[0m  [36m(def pillar-gap 158) ;; 158[0m
+  [36m27[0m  [36m(def pillar-width 86)[0m
+  [36m28[0m  [36m[0m
+  [36m29[0m  [36m(defn easy-init [][0m
+  [33m30[0m  [1m  (def gravity 0.05)[0m
+  [0m  [0m  [33m  ^--- gravity at line 18 is being replaced[0m
+  [36m31[0m  [36m  (def pillar-gap 300))[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [36m34[0m  [36m  (def pillar-gap 180))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:31  column:3  ----[0m
+
+  [1mpillar-gap at line 26 is being replaced[0m
+
+  [36m27[0m  [36m(def pillar-width 86)[0m
+  [36m28[0m  [36m[0m
+  [36m29[0m  [36m(defn easy-init [][0m
+  [36m30[0m  [36m  (def gravity 0.05)[0m
+  [33m31[0m  [1m  (def pillar-gap 300))[0m
+  [0m  [0m  [33m  ^--- pillar-gap at line 26 is being replaced[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [36m34[0m  [36m  (def pillar-gap 180))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [36m36[0m  [36m  (def gravity 0.08)[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:33  column:3  ----[0m
+
+  [1mgravity at line 30 is being replaced[0m
+
+  [36m29[0m  [36m(defn easy-init [][0m
+  [36m30[0m  [36m  (def gravity 0.05)[0m
+  [36m31[0m  [36m  (def pillar-gap 300))[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [33m33[0m  [1m  (def gravity 0.05)[0m
+  [0m  [0m  [33m  ^--- gravity at line 30 is being replaced[0m
+  [36m34[0m  [36m  (def pillar-gap 180))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [36m36[0m  [36m  (def gravity 0.08)[0m
+  [36m37[0m  [36m  (def pillar-gap 160))[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:34  column:3  ----[0m
+
+  [1mpillar-gap at line 31 is being replaced[0m
+
+  [36m30[0m  [36m  (def gravity 0.05)[0m
+  [36m31[0m  [36m  (def pillar-gap 300))[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [33m34[0m  [1m  (def pillar-gap 180))[0m
+  [0m  [0m  [33m  ^--- pillar-gap at line 31 is being replaced[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [36m36[0m  [36m  (def gravity 0.08)[0m
+  [36m37[0m  [36m  (def pillar-gap 160))[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:36  column:3  ----[0m
+
+  [1mgravity at line 33 is being replaced[0m
+
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [36m34[0m  [36m  (def pillar-gap 180))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [33m36[0m  [1m  (def gravity 0.08)[0m
+  [0m  [0m  [33m  ^--- gravity at line 33 is being replaced[0m
+  [36m37[0m  [36m  (def pillar-gap 160))[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m[0m
+  [36m40[0m  [36m(def starting-state { :timer-running false[0m
+  [36m41[0m  [36m                      :jump-count 0[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:37  column:3  ----[0m
+
+  [1mpillar-gap at line 34 is being replaced[0m
+
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [36m34[0m  [36m  (def pillar-gap 180))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [36m36[0m  [36m  (def gravity 0.08)[0m
+  [33m37[0m  [1m  (def pillar-gap 160))[0m
+  [0m  [0m  [33m  ^--- pillar-gap at line 34 is being replaced[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m[0m
+  [36m40[0m  [36m(def starting-state { :timer-running false[0m
+  [36m41[0m  [36m                      :jump-count 0[0m
+  [36m42[0m  [36m                      :initial-vel 0[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.556 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.329 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[36m----  Compiler Warning on   src/game/core.cljs   line:30  column:3  ----[0m
+
+  [1mgravity at line 18 is being replaced[0m
+
+  [36m26[0m  [36m(def pillar-gap 158) ;; 158[0m
+  [36m27[0m  [36m(def pillar-width 86)[0m
+  [36m28[0m  [36m[0m
+  [36m29[0m  [36m(defn easy-init [][0m
+  [33m30[0m  [1m  (def gravity 0.05)[0m
+  [0m  [0m  [33m  ^--- gravity at line 18 is being replaced[0m
+  [36m31[0m  [36m  (def pillar-gap 300))[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [36m34[0m  [36m  (def pillar-gap 180))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:31  column:3  ----[0m
+
+  [1mpillar-gap at line 26 is being replaced[0m
+
+  [36m27[0m  [36m(def pillar-width 86)[0m
+  [36m28[0m  [36m[0m
+  [36m29[0m  [36m(defn easy-init [][0m
+  [36m30[0m  [36m  (def gravity 0.05)[0m
+  [33m31[0m  [1m  (def pillar-gap 300))[0m
+  [0m  [0m  [33m  ^--- pillar-gap at line 26 is being replaced[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [36m34[0m  [36m  (def pillar-gap 180))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [36m36[0m  [36m  (def gravity 0.08)[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:33  column:3  ----[0m
+
+  [1mgravity at line 30 is being replaced[0m
+
+  [36m29[0m  [36m(defn easy-init [][0m
+  [36m30[0m  [36m  (def gravity 0.05)[0m
+  [36m31[0m  [36m  (def pillar-gap 300))[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [33m33[0m  [1m  (def gravity 0.05)[0m
+  [0m  [0m  [33m  ^--- gravity at line 30 is being replaced[0m
+  [36m34[0m  [36m  (def pillar-gap 180))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [36m36[0m  [36m  (def gravity 0.08)[0m
+  [36m37[0m  [36m  (def pillar-gap 160))[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:34  column:3  ----[0m
+
+  [1mpillar-gap at line 31 is being replaced[0m
+
+  [36m30[0m  [36m  (def gravity 0.05)[0m
+  [36m31[0m  [36m  (def pillar-gap 300))[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [33m34[0m  [1m  (def pillar-gap 180))[0m
+  [0m  [0m  [33m  ^--- pillar-gap at line 31 is being replaced[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [36m36[0m  [36m  (def gravity 0.08)[0m
+  [36m37[0m  [36m  (def pillar-gap 160))[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:36  column:3  ----[0m
+
+  [1mgravity at line 33 is being replaced[0m
+
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [36m34[0m  [36m  (def pillar-gap 180))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [33m36[0m  [1m  (def gravity 0.08)[0m
+  [0m  [0m  [33m  ^--- gravity at line 33 is being replaced[0m
+  [36m37[0m  [36m  (def pillar-gap 160))[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m[0m
+  [36m40[0m  [36m(def starting-state { :timer-running false[0m
+  [36m41[0m  [36m                      :jump-count 0[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:37  column:3  ----[0m
+
+  [1mpillar-gap at line 34 is being replaced[0m
+
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [36m34[0m  [36m  (def pillar-gap 180))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [36m36[0m  [36m  (def gravity 0.08)[0m
+  [33m37[0m  [1m  (def pillar-gap 160))[0m
+  [0m  [0m  [33m  ^--- pillar-gap at line 34 is being replaced[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m[0m
+  [36m40[0m  [36m(def starting-state { :timer-running false[0m
+  [36m41[0m  [36m                      :jump-count 0[0m
+  [36m42[0m  [36m                      :initial-vel 0[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.554 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[36m----  Compiler Warning on   src/game/core.cljs   line:30  column:3  ----[0m
+
+  [1mgravity at line 18 is being replaced[0m
+
+  [36m26[0m  [36m(def pillar-gap 158) ;; 158[0m
+  [36m27[0m  [36m(def pillar-width 86)[0m
+  [36m28[0m  [36m[0m
+  [36m29[0m  [36m(defn easy-init [][0m
+  [33m30[0m  [1m  (def gravity 0.05)[0m
+  [0m  [0m  [33m  ^--- gravity at line 18 is being replaced[0m
+  [36m31[0m  [36m  (def pillar-gap 300))[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [36m34[0m  [36m  (def pillar-gap 180))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:31  column:3  ----[0m
+
+  [1mpillar-gap at line 26 is being replaced[0m
+
+  [36m27[0m  [36m(def pillar-width 86)[0m
+  [36m28[0m  [36m[0m
+  [36m29[0m  [36m(defn easy-init [][0m
+  [36m30[0m  [36m  (def gravity 0.05)[0m
+  [33m31[0m  [1m  (def pillar-gap 300))[0m
+  [0m  [0m  [33m  ^--- pillar-gap at line 26 is being replaced[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [36m34[0m  [36m  (def pillar-gap 180))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [36m36[0m  [36m  (def gravity 0.08)[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:33  column:3  ----[0m
+
+  [1mgravity at line 30 is being replaced[0m
+
+  [36m29[0m  [36m(defn easy-init [][0m
+  [36m30[0m  [36m  (def gravity 0.05)[0m
+  [36m31[0m  [36m  (def pillar-gap 300))[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [33m33[0m  [1m  (def gravity 0.05)[0m
+  [0m  [0m  [33m  ^--- gravity at line 30 is being replaced[0m
+  [36m34[0m  [36m  (def pillar-gap 180))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [36m36[0m  [36m  (def gravity 0.08)[0m
+  [36m37[0m  [36m  (def pillar-gap 160))[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:34  column:3  ----[0m
+
+  [1mpillar-gap at line 31 is being replaced[0m
+
+  [36m30[0m  [36m  (def gravity 0.05)[0m
+  [36m31[0m  [36m  (def pillar-gap 300))[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [33m34[0m  [1m  (def pillar-gap 180))[0m
+  [0m  [0m  [33m  ^--- pillar-gap at line 31 is being replaced[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [36m36[0m  [36m  (def gravity 0.08)[0m
+  [36m37[0m  [36m  (def pillar-gap 160))[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:36  column:3  ----[0m
+
+  [1mgravity at line 33 is being replaced[0m
+
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [36m34[0m  [36m  (def pillar-gap 180))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [33m36[0m  [1m  (def gravity 0.08)[0m
+  [0m  [0m  [33m  ^--- gravity at line 33 is being replaced[0m
+  [36m37[0m  [36m  (def pillar-gap 160))[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m[0m
+  [36m40[0m  [36m(def starting-state { :timer-running false[0m
+  [36m41[0m  [36m                      :jump-count 0[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:37  column:3  ----[0m
+
+  [1mpillar-gap at line 34 is being replaced[0m
+
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [36m34[0m  [36m  (def pillar-gap 180))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [36m36[0m  [36m  (def gravity 0.08)[0m
+  [33m37[0m  [1m  (def pillar-gap 160))[0m
+  [0m  [0m  [33m  ^--- pillar-gap at line 34 is being replaced[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m[0m
+  [36m40[0m  [36m(def starting-state { :timer-running false[0m
+  [36m41[0m  [36m                      :jump-count 0[0m
+  [36m42[0m  [36m                      :initial-vel 0[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 0.592 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/game/core.js
+Compiling build :game to "resources/public/js/game.js" from ["src"]...
+[36m----  Compiler Warning on   src/game/core.cljs   line:30  column:3  ----[0m
+
+  [1mgravity at line 18 is being replaced[0m
+
+  [36m26[0m  [36m(def pillar-gap 158) ;; 158[0m
+  [36m27[0m  [36m(def pillar-width 86)[0m
+  [36m28[0m  [36m[0m
+  [36m29[0m  [36m(defn easy-init [][0m
+  [33m30[0m  [1m  (def gravity 0.05)[0m
+  [0m  [0m  [33m  ^--- gravity at line 18 is being replaced[0m
+  [36m31[0m  [36m  (def pillar-gap 300))[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [36m34[0m  [36m  (def pillar-gap 180))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:31  column:3  ----[0m
+
+  [1mpillar-gap at line 26 is being replaced[0m
+
+  [36m27[0m  [36m(def pillar-width 86)[0m
+  [36m28[0m  [36m[0m
+  [36m29[0m  [36m(defn easy-init [][0m
+  [36m30[0m  [36m  (def gravity 0.05)[0m
+  [33m31[0m  [1m  (def pillar-gap 300))[0m
+  [0m  [0m  [33m  ^--- pillar-gap at line 26 is being replaced[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [36m34[0m  [36m  (def pillar-gap 180))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [36m36[0m  [36m  (def gravity 0.08)[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:33  column:3  ----[0m
+
+  [1mgravity at line 30 is being replaced[0m
+
+  [36m29[0m  [36m(defn easy-init [][0m
+  [36m30[0m  [36m  (def gravity 0.05)[0m
+  [36m31[0m  [36m  (def pillar-gap 300))[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [33m33[0m  [1m  (def gravity 0.05)[0m
+  [0m  [0m  [33m  ^--- gravity at line 30 is being replaced[0m
+  [36m34[0m  [36m  (def pillar-gap 180))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [36m36[0m  [36m  (def gravity 0.08)[0m
+  [36m37[0m  [36m  (def pillar-gap 160))[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:34  column:3  ----[0m
+
+  [1mpillar-gap at line 31 is being replaced[0m
+
+  [36m30[0m  [36m  (def gravity 0.05)[0m
+  [36m31[0m  [36m  (def pillar-gap 300))[0m
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [33m34[0m  [1m  (def pillar-gap 180))[0m
+  [0m  [0m  [33m  ^--- pillar-gap at line 31 is being replaced[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [36m36[0m  [36m  (def gravity 0.08)[0m
+  [36m37[0m  [36m  (def pillar-gap 160))[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:36  column:3  ----[0m
+
+  [1mgravity at line 33 is being replaced[0m
+
+  [36m32[0m  [36m(defn normal-init [][0m
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [36m34[0m  [36m  (def pillar-gap 180))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [33m36[0m  [1m  (def gravity 0.08)[0m
+  [0m  [0m  [33m  ^--- gravity at line 33 is being replaced[0m
+  [36m37[0m  [36m  (def pillar-gap 160))[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m[0m
+  [36m40[0m  [36m(def starting-state { :timer-running false[0m
+  [36m41[0m  [36m                      :jump-count 0[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/game/core.cljs   line:37  column:3  ----[0m
+
+  [1mpillar-gap at line 34 is being replaced[0m
+
+  [36m33[0m  [36m  (def gravity 0.05)[0m
+  [36m34[0m  [36m  (def pillar-gap 180))[0m
+  [36m35[0m  [36m(defn hard-init [][0m
+  [36m36[0m  [36m  (def gravity 0.08)[0m
+  [33m37[0m  [1m  (def pillar-gap 160))[0m
+  [0m  [0m  [33m  ^--- pillar-gap at line 34 is being replaced[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m[0m
+  [36m40[0m  [36m(def starting-state { :timer-running false[0m
+  [36m41[0m  [36m                      :jump-count 0[0m
+  [36m42[0m  [36m                      :initial-vel 0[0m
+
+[36m----  Compiler Warning : Please see src/game/core.cljs  ----[0m
+[32mSuccessfully compiled build :game to "resources/public/js/game.js" in 1.229 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/out/game/core.js
